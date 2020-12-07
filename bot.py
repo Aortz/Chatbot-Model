@@ -16,12 +16,7 @@ dotenv_path = join(dirname(__file__), '.env.txt')
 
 load_dotenv(dotenv_path)
 discord_token = os.getenv("DISCORD_TOKEN")
-#"Nzg0OTk0NTQ5NjI1MTI2OTIy.X8xZJQ.msQSl5VgtdPXoTc2h9uD5yrf7KA"
 discord_guild = os.getenv("DISCORD_GUILD")
-#"requi3m's server"
-
-# print(os.getenv("DISCORD_TOKEN"))
-
 
 bot = commands.Bot(command_prefix='!')
 client  = discord.Client()
